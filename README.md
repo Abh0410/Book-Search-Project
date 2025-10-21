@@ -25,11 +25,10 @@ A full-stack Book Search Application built with Node.js, Elasticsearch, and Reac
 
 Before running this application, make sure you have:
 
-1. **Node.js** (v14 or higher) - [Download here](https://nodejs.org/)
-2. **Elasticsearch** (v8.x) - Choose one of the following:
-   - **Local Installation**: [Download here](https://www.elastic.co/downloads/elasticsearch)
-   - **Docker**: `docker run -d -p 9200:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" docker.elastic.co/elasticsearch/elasticsearch:8.11.0`
-   - **Elastic Cloud**: [Sign up here](https://cloud.elastic.co/)
+1. Node.js (v14 or higher) - [Download here](https://nodejs.org/)
+2. Elasticsearch (v8.x) - Choose one of the following:
+   - Local Installation: [Download here](https://www.elastic.co/downloads/elasticsearch)
+   - Docker: `docker run -d -p 9200:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" docker.elastic.co/elasticsearch/elasticsearch:8.11.0`
 
 ## Quick Start
 
@@ -103,4 +102,5 @@ The frontend will be running on `http://localhost:3000`
 - `npm start` - Start development server
 - `npm run build` - Build for production
 - `npm test` - Run tests
+
 
